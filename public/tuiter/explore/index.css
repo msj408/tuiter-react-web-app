@@ -1,0 +1,129 @@
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+.wd-fg-color-white { color: white; }
+.wd-bg-color-dark-gray {
+    background-color: rgba(35, 32, 32, 0.8);
+}
+.wd-bg-color-black { background-color: black; }
+
+.wd-main-border-color{border-color: rgb(47, 51, 54)}
+.wd-border-none {
+    border: 0; }
+
+.wd-float-left {
+    float: left;
+    width:100%
+}
+.wd-rows-1{
+    float:left;
+    width: 8%;
+}
+.wd-rows-1-gear{
+    float:right;
+    width: 8%;
+}
+.wd-rows-tabs{
+    float: left;
+    width: 13%
+}
+.wd-rows-2{
+    float:left;
+    width: 16%
+}
+.wd-rows-4{
+    float:left;
+    width: 33%
+}
+
+.wd-rows-3{
+    float:left;
+    width:25%;
+}
+.wd-rows-10{
+    float:left;
+    width:83%
+}
+.wd-rows-8{
+    float:left;
+    width:50%
+}
+.wd-rows-11{
+    float:left;
+    width: 91%
+}
+.wd-rows-12{
+    float:left;
+    width: 100%;
+}
+.wd-padding-all{
+    padding: 16px;
+}
+.wd-padding-search{
+    padding-left: 16px;
+    padding-right:0px;
+    padding-top: 5px;
+    padding-bottom:5px ;
+}
+.wd-image{
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    float:right;
+}
+
+.wd-padding-left{
+    padding-left: 16px;
+}
+.wd-padding-sep-all{
+    padding-left: 16px;
+    padding-right:16px;
+    padding-top: 5px;
+    padding-bottom:5px ;
+}
+.wd-link-color{
+    color: rgb(110, 118, 125)
+}
+.wd-link-font-size{
+    font-size: 15px;
+}
+.wd-link-larger-font-size{
+    font-size: 30px;
+}
+.wd-highlighted-color{
+   color: rgb(29,161,242);
+}
+.wd-gear-size{
+    size:40px;
+}
+.wd-margin-right{
+    margin-right:12px;
+}
+.wd-underlined-font{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(29,161,242);
+}
+.wd-main-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+.wd-trending{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-trending-topic{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.wd-margin-left{
+    margin-left: 12px;
+}
+.wd-author-handle{
+
+}
+.wd-bookmark-author{
+
+}
