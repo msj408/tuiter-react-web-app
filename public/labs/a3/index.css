@@ -400,6 +400,7 @@ and (max-width: 1200px) {
         .media-query-3 {
             font-weight: bold;
             font-style: italic;
+
         }
     }
 
