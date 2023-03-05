@@ -31,6 +31,7 @@ const ExploreComponent = () => {
                 <img src="/images/starship.jpg" className="w-100"/>
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
+
             </div>
             <PostSummaryList/>
         </>
