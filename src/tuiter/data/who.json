@@ -1,0 +1,25 @@
+[
+  {  "_id": 123,
+    "avatarIcon": "../../images/java.jpg",
+    "userName": "Java",
+    "handle": "Java" },
+
+  {  "_id": 234,
+    "avatarIcon":"../../images/espn.jpg",
+    "userName": "ESPN",
+    "handle": "espn" },
+
+  {  "_id": 345,
+    "avatarIcon": "../../images/adidas.jpg",
+    "userName": "Adidas",
+    "handle": "adidas" },
+
+  { "_id": 567,
+    "avatarIcon": "../../images/CNN-logo.jpg",
+    "userName": "CNN",
+    "handle": "CNN"},
+
+  {  "_id": 789,
+    "avatarIcon": "../../images/chatgpt.jpg",
+    "userName": "ChatGPT",
+    "handle": "ChatGPT" } ]
