@@ -36,7 +36,6 @@ const HomePostItem  = () => {
             </li>
         );
     }
-    ;
 }
 export default HomePostItem;
 

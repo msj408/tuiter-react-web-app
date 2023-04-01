@@ -1,15 +1,23 @@
 import React from "react";
-import {useSelector} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
+import {useSelector, useDispatch} from "react-redux";
 const tuitItem = ( )=> {
-       const postItem = useSelector(state => state.tuits);
+    const postItem = useSelector(state => state.tuits);
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {dispatch(deleteTuit(id));
+    }
     return(
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={postItem.iconImage} className="col-12 rounded-circle"/>
+                    <img src={postItem.image} className="col-12 rounded-circle"/>
                 </div>
                 <div className="col-10">
-                    <div className="row">
+                    <div>
+                        <i className="bi bi-x-lg float-end"
+                           onClick={() => deleteTuitHandler(postItem._id)}></i>
+                    </div>
+                        <div className="row">
                         <div className="col-12 fw-light text-secondary"><span
                             className="fw-bold text-black">{postItem.Name}</span> <i
                             className="fa-check fa-solid text-white"></i> {postItem.userName} {postItem.time}</div>

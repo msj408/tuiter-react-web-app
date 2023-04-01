@@ -2,10 +2,11 @@ import React from "react";
 import {useSelector} from "react-redux";
 import tuitItem from "./tuitItem";
 
-const HomePostList = () => {
-   const homePosts = useSelector(state => this.state.tuits)
+const TuitsList = () => {
+   const homePosts = useSelector(state => state.tuits)
     return(
         <ul className="list-group">
+        <li className="list-group-item">Tuits</li>
             {
                 homePosts.map(post =>
                     <tuitItem
@@ -14,4 +15,4 @@ const HomePostList = () => {
         </ul>
     );
 };
-export default HomePostList;
+export default TuitsList;
