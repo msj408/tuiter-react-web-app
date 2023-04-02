@@ -10,7 +10,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import HomeComponent from "./home";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuitsData: tuitsReducer}});
+    {reducer: {who: whoReducer, tuits: tuitsReducer}});
 
 
 
