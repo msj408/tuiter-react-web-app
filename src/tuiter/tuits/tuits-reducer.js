@@ -53,7 +53,6 @@ const tuitsSlice = createSlice({
                 state.tuits.push(payload)
             },
 
-
     },
 
     reducers:{}
