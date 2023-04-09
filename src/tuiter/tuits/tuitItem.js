@@ -1,7 +1,8 @@
 import React from "react";
 import {deleteTuitThunk} from "../../services/tuits-thunks";
 import {useSelector, useDispatch} from "react-redux";
-const tuitItem = (key, post )=> {
+const TuitItem = (key, post )=> {
+    console.log(post)
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {dispatch(deleteTuitThunk(id));
     }
@@ -9,18 +10,18 @@ const tuitItem = (key, post )=> {
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={post.image} className="col-12 rounded-circle"/>
+                    <img src="/images/space.jpg" className="col-12 rounded-circle"/>
 
                 </div>
                 <div className="col-10">
                     <div>
                         <i className="bi bi-x-lg float-end"
-                           onClick={() => deleteTuitHandler(post._id)}></i>
+                           onClick={() => deleteTuitHandler(key)}></i>
                     </div>
                         <div className="row">
                         <div className="col-12 fw-light text-secondary"><span
-                            className="fw-bold text-black">{post.Name}</span> <i
-                            className="fa-check fa-solid text-white"></i> {post.userName} {post.time}</div>
+                            className="fw-bold text-black">{post.username}</span> <i
+                            className="fa-check fa-solid text-white"></i> @elonmusk {post.time}</div>
                     </div>
                     <div className="row">
                         <div className="col-12 fw-light text-secondary">{post.tuit}</div>
@@ -40,5 +41,5 @@ const tuitItem = (key, post )=> {
         </li>
     );
 };
-export default tuitItem;
+export default TuitItem;
 
